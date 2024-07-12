@@ -18,12 +18,11 @@ def dfs(graph, start, target, visited=None):
 if __name__ == "__main__":
     # Ejemplo de grafo como un diccionario de listas de adyacencia
     graph = {
-        'F': ['A', 'E'],
+        'F': ['A', 'E', 'G'],
         'A': ['B', 'C', 'E', 'F'],
         'E': ['A', 'C', 'F', 'G'],
         'C': ['A', 'E'],
         'G': ['E', 'H'],
-        'F': ['G'],
         'H': []
     }
 
